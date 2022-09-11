@@ -29,8 +29,6 @@
 
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
-nav {margin-top: -100px;}
-
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
