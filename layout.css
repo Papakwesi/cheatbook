@@ -79,6 +79,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 /* Header */
 #header{color:#FFFFFF; background-color:#01546B;}
 #header #logo a{color: #DFBD69;}
+#header {margin-top: -30px;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
