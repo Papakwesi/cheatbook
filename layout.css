@@ -69,6 +69,7 @@ a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - preve
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
+.btn{color: black; font-weight: bolder; margin-top: 10px; display: grid; align-content: center;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
@@ -79,7 +80,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 /* Header */
 #header{color:#FFFFFF; background-color:#01546B;}
 #header #logo a{color: #DFBD69;}
-#header {margin-top: -30px;}
+#header {margin-top: -50px;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
