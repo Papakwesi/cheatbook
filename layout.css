@@ -83,7 +83,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 #header {margin-top: -50px;}
 
 /* Navigation */
-#mainav li a{color:inherit;}
+#mainav li a{color:inherit; text-align: left;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color: #DFBD69;; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:black; background-color:rgba(10,198,252,.5); border-color:rgba(10,198,252,.5);/* #0AC6FC */ font-weight: bold;}
 #mainav li li:hover > a, #mainav .active .active > a{color: black; background-color:#0AC6FC;}
