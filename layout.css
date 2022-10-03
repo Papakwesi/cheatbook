@@ -13,7 +13,6 @@
 
 #header #logo{margin:22px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:2rem; font-variant:small-caps;}
-#header{box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
 
 
 /* Page Intro
@@ -23,6 +22,7 @@
 #pageintro article{display:block; max-width:60%; text-transform:capitalize;}
 #pageintro .heading{font-size:5rem;}
 #pageintro footer{margin-top:50px;}
+
 
 --------------------------------------------------------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
@@ -70,7 +70,11 @@ a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - preve
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
-.btn{color: black; font-weight: bolder; margin-top: 10px; display: grid; align-content: center;}
+.btn{margin-top: 10px; }
+
+.btn. hover{
+	background-color: red;
+}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
@@ -146,8 +150,4 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
-}
-
-.about-us {
-	font-size: 18px;
 }
