@@ -2,28 +2,21 @@
 @import url("framework.css");
 
 
-
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-.padtop{padding:80px 0 0 0; }
- 
-#header{padding:0 30px; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
-
-#header #logo{margin:22px 0 0 0;}
-#header #logo h1{margin:0; padding:0; font-size:2rem; font-variant:small-caps;}
-
+.padding-top{padding:80px 0 0 0; }
+header{padding:0 30px; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+#logo{margin:22px 0 0 0;}
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:119px 0;}
-
-#pageintro article{display:block; max-width:60%; text-transform:capitalize;}
+#pageintro .intro{display:block; max-width:60%; text-transform:capitalize;}
 #pageintro .heading{font-size:5rem;}
-#pageintro footer{margin-top:50px;}
+
 
 
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
 
 /* Navigation
@@ -35,7 +28,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 #mainav{}
-#mainav ul{text-transform:uppercase;}
+#mainav ul{text-transform:uppercase; }
 #mainav ul ul{position:absolute; width:180px; text-transform:none; z-index:9999;}
 #mainav ul ul ul{left:180px; top:0;}
 #mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
@@ -57,15 +50,16 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 .contact a {padding: 0 5px;}
 .btn{margin-top: 10px;}
+.drop-to-side {margin-top: -100px;}
 
-.overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.bg-img{color:#FFFFFF; background-color:inherit;}
+.bg-img::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
 
 /* Header */
-#header{color:#FFFFFF; background-color:#000;}
-#header #logo a{color: darkred;}
-#header {margin-top: -50px; border-radius: 20px;}
+header{color:#FFFFFF; background-color:#000;}
+header #logo a{color: darkred;}
+header {margin-top: -2000px; border-radius: 20px;}
 
 /* Navigation */
 #mainav li a{color:inherit; text-align: left;}
@@ -98,36 +92,29 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 	.hoc{max-width:90%;}
 
 	#header{padding:30px;}
-	#header #logo{margin-top:0;}
+ 	#logo{margin-top:0;}
 
 	#mainav{}
 	#mainav ul{display:none;}
 	#mainav form{display:block; margin-top:2px;}
+	.about-us {margin-top: 20px; margin: 20px 0px;}
+
+
 }
 
 @media screen and (max-width:750px){
-	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0;}
-	.last, .group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
-
 	#header{text-align:center;}
 	#header #logo{margin:0 0 15px 0;}
 
-	#pageintro article{max-width:none;}
+	#pageintro .intro{max-width:100%;}
 	#pageintro .heading{margin-bottom:20px; font-size:2.5rem;}
+	.about-us {margin-top: 20px; margin-bottom: 150px;}
+
 }
 
-
-/* Other
---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){
-	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
-	.scrollable table{margin:0; padding:0; white-space:nowrap;}
-
-	.inline li{display:block; margin-bottom:10px;}
-	.pushright li{margin-right:0;}
-
-	.font-x2{font-size:1.6rem;}
-	.font-x3{font-size:1.8rem;}
+	.about-us {margin-top: 20px; margin-bottom: 150px;}
+	#pageintro .intro{max-width:100%;}
 }
+
