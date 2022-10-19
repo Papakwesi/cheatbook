@@ -19,15 +19,13 @@
 </head>
 
 <style>
-  body {
-    text-align: center;
-  }
+  body {text-align: center;}
 </style>
 
-<body id="top">
+<body>
 
   <!-- Top Background Image Wrapper -->
-  <div class="bgded overlay padtop" style="background-image:url('https://lh4.googleusercontent.com/RCItHAZvpAreR49kvOXZfMiyM4v4T06FraCVFsT1-uVhBba7fs2KEeqGfzf2kHvlyoI=w2400") no-repeat top center / cover);>
+  <div class="bg-img padding-top" style="background-image: url(logo/bg-img.jpg);" no-repeat top center / cover);>
 
     <header id="header" class="hoc clear">
       <div id="logo" class="fl_left">
@@ -139,7 +137,7 @@
           </li><li><a href="pages/sortcode.pdf">Bank Sortcode</a></li>
 
           <li><a class="drop" href="#">Branches</a>
-            <ul>
+            <ul class="drop-to-side">
               <li><a href="pages/branches/grt-accra.pdf">Greater Accra</a></li>
               <li><a href="pages/branches/western.pdf">Western</a></li>
               <li><a href="pages/branches/northern.pdf">Northern</a></li>
@@ -189,7 +187,7 @@
 
       <li><a class="drop" href="#">Tarrifs</a>
         <ul>
-          <li><a style="background-color: white;" href="pages/tarrif-guide/tariff.pdf">Complete Tariff Guide</a></li>
+          <li><a style="background-color: black; color:darkred;" href="pages/tarrif-guide/tariff.pdf">Complete Tariff Guide</a></li>
           <li><a href="pages/tarrif-guide/ACH.pdf">ACH</a></li>
           <li><a href="pages/tarrif-guide/cards.pdf">Card Services</a></li>
           <li><a href="pages/tarrif-guide/cheque-book.pdf">Cheque Book Services</a></li>
@@ -228,28 +226,25 @@
 </script>
 <!-- <button class="btn btn-danger" type = "button" value = "" onclick = "DisplayAlert()" style="border-color: ghostwhite; border-left-color: transparent; border-top-color: transparent;"><b>READ ABOUT UPDATES!!!</b></button> -->
 
-<!-- Santa Video -->
-<!-- <video autoplay muted loop id="myVideo">
-  <source src="aesthetic/santa.mkv" type="video/mp4">
-  </video> -->
+<div id="pageintro" class="hoc clear">
+  <div class="intro">
+    <h3 class="heading" style="font-family: 'Montserrat', sans-serif;">Excellence, Integrity, Innovation & Teamwork</h3>
+    <p class="about-us">
 
-  <div id="pageintro" class="hoc clear">
-    <article>
-      <h3 class="heading" style="font-family: 'Montserrat', sans-serif;">Excellence, Integrity, Innovation & Teamwork</h3>
-      <p class="about-us">
-
-        <div style="background-color: rgba(0, 0, 0, 0.6);font-size: 20px; font-family: 'Montserrat', sans-serif;">
-          <b style="color: darkred; font-weight: bolder;">Our Mission:</b><span> To be the preferred Ghanaian bank providing simple, secure and differentiated banking experience to customers.</span>
-          <br><br>
-          <b style="color: darkred;">Our Vision:</b><span> To be the most trusted bank in Ghana</span></p>
-        </div>
-
-      </article>
-    </div>
+      <div style="background-color: rgba(0, 0, 0, 0.6);font-size: 20px; font-family: 'Montserrat', sans-serif;">
+        <b style="color: darkred; font-weight: bolder;">Our Mission:</b><span> To be the preferred Ghanaian bank providing simple, secure and differentiated banking experience to customers.</span>
+        <br><br>
+        <b style="color: darkred;">Our Vision:</b><span> To be the most trusted bank in Ghana</span>
+      </div>
+    </p>
   </div>
+</div>
 
-  <!-- JAVASCRIPTS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="jquery.mobilemenu.js"></script>
+<footer style="background-color:black; height: 50px;"></footer>
+
+
+<!-- JAVASCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="jquery.mobilemenu.js"></script>
 </body>
 </html>
