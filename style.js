@@ -14,9 +14,9 @@ $("#nav select").change(function(){if($(this).find("option:selected").val()!=="#
 
 function DisplayAlert() {
   var newLine = "\r\n"
-  var msg = "Loan repricing FAQ's added"
+  var msg = "Staff contacts (Reg.mgrs Clus.Mgrs BMs) updated"
   msg += newLine;
-  msg += "";
+  msg += "Find at: cheatbook >> contacts >> BMs";
   msg += newLine;
   alert(msg);
 }
