@@ -14,9 +14,9 @@ $("#nav select").change(function(){if($(this).find("option:selected").val()!=="#
 
 function DisplayAlert() {
   var newLine = "\r\n"
-  var msg = "Staff contacts (Reg.mgrs Clus.Mgrs BMs) updated"
+  var msg = "Cheatbook updated with current tariff"
   msg += newLine;
-  msg += "Find at: cheatbook >> contacts >> BMs";
+  msg += "";
   msg += newLine;
   alert(msg);
 }
