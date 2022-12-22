@@ -14,9 +14,13 @@ $("#nav select").change(function(){if($(this).find("option:selected").val()!=="#
 
 function DisplayAlert() {
   var newLine = "\r\n"
-  var msg = "Cheatbook updated with current tariff"
+  var msg = "Cheatbook updated with Remittance platforms"
   msg += newLine;
-  msg += "";
+  msg += "Find at: cheatbook/pages/remittance";
+  msg += newLine;
+  msg += "Cheatbook updated with Cards Transaction Limits";
+  msg += newLine;
+  msg += "Find at: cheatbook/tariffs/card limits";
   msg += newLine;
   alert(msg);
 }
