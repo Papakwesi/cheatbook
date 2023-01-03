@@ -22,5 +22,17 @@ function DisplayAlert() {
   msg += newLine;
   msg += "Find at: cheatbook/tariffs/card limits";
   msg += newLine;
+  msg += "Cheatbook updated with current Contact Lists";
+  msg += newLine;
+  msg += "Find at: cheatbook/Contacts";
+  msg += newLine;
+  msg += "Cheatbook updated with T-Bill Calculator";
+  msg += newLine;
+  msg += "Find at: cheatbook/T-Bill Calculator";
+  msg += newLine;
+  msg += "LOAN REPRICING FAQ's added to the loan section of the cheatbook";
+  msg += newLine;
+  msg += "Find at: cheatbook/pages/loans/loan repricing FAQ's";
+  msg += newLine;	
   alert(msg);
 }
