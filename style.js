@@ -57,7 +57,7 @@ document.querySelector("#submit").addEventListener("click", function() {
         window.open(url +"t-bill.html")
         break;
     case "bm":
-        window.open(url +"pages/contacts/BM.pdf","_self")
+        window.open(url +"pages/contacts/BM.pdf")
         break;
     case "bom":
         window.open(url +"pages/contacts/BOM.pdf")
@@ -158,32 +158,8 @@ document.querySelector("#submit").addEventListener("click", function() {
     case "vendor list":
         window.open(url +"pages/vendor.pdf")
         break;
-    case "sortcode":
+    case "branch sortcode":
         window.open(url +"pages/sortcode.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
-        break;
-    case "BM":
-        window.open(url +"pages/contacts/BM.pdf")
         break;
     default:
     alert(inputValue + " cannot be found");
