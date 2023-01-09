@@ -24,7 +24,7 @@ function DisplayAlert() {
   msg += "Find at: cheatbook/pages/loans/loan repricing FAQ's";
   msg += newLine;
   msg += newLine;
-  msg += "Search must be in lower case";
+  msg += "Search must be in lowercase";
   msg += newLine;
   msg += newLine 
   alert(msg);
@@ -53,16 +53,28 @@ document.querySelector("#submit").addEventListener("click", function() {
   var url = "https://papakwesi.github.io/cheatbook/"
 
   switch(inputValue){
-    case "t-bill":
+    case "t-bill calculator":
+        window.open(url +"t-bill.html")
+        break;
+    case "treasury bill calculator":
         window.open(url +"t-bill.html")
         break;
     case "bm":
         window.open(url +"pages/contacts/BM.pdf")
         break;
+    case "branch managers":
+        window.open(url +"pages/contacts/BM.pdf")
+        break;
     case "bom":
         window.open(url +"pages/contacts/BOM.pdf")
         break;
+    case "branch operation managers":
+        window.open(url +"pages/contacts/BOM.pdf")
+        break;
     case "cso":
+        window.open(url +"pages/contacts/CSO.pdf")
+        break;
+    case "customer service officers":
         window.open(url +"pages/contacts/CSO.pdf")
         break;
     case "tariff guide":
@@ -71,19 +83,19 @@ document.querySelector("#submit").addEventListener("click", function() {
     case "ach":
         window.open(url +"pages/tarrif-guide/ACH.pdf")
         break;
-    case "card":
+    case "cards":
         window.open(url +"pages/tarrif-guide/cards.pdf")
         break;
     case "card limit":
         window.open(url +"pages/tarrif-guide/card limit.jpg")
         break;
-    case "cheque":
+    case "cheque books":
         window.open(url +"pages/tarrif-guide/cheque-book.pdf.pdf")
         break;
     case "e-xperience bundle":
         window.open(url +"pages/tarrif-guide/e-xperience.pdf")
         break;
-    case "international tade":
+    case "international trade":
         window.open(url +"pages/tarrif-guide/ITP.pdf")
         break;
     case "payment order":
@@ -128,10 +140,16 @@ document.querySelector("#submit").addEventListener("click", function() {
     case "dreamlife loan":
         window.open(url +"pages/products/loans.pdf")
         break;
-    case "Scheme loan":
+    case "scheme loan":
         window.open(url +"pages/products/loans.pdf")
         break;
     case "app signup":
+        window.open(url +"pages/cbg-app.pdf")
+        break;
+    case "mobile app signup":
+        window.open(url +"pages/cbg-app.pdf")
+        break;
+    case "cbg app signup":
         window.open(url +"pages/cbg-app.pdf")
         break;
     case "ussd signup":
@@ -153,6 +171,15 @@ document.querySelector("#submit").addEventListener("click", function() {
         window.open(url +"pages/SSI.pdf")
         break;
     case "tertiary institutions":
+        window.open(url +"pages/sch-forms.pdf")
+        break;
+    case "school forms":
+        window.open(url +"pages/sch-forms.pdf")
+        break;
+    case "university forms":
+        window.open(url +"pages/sch-forms.pdf")
+        break;
+    case "tertiary school forms":
         window.open(url +"pages/sch-forms.pdf")
         break;
     case "vendor list":
