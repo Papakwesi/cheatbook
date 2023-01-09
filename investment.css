@@ -1,0 +1,184 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	min-height: 70vh;
+	background-image: url("https://citinewsroom.com/wp-content/uploads/2019/11/consolidated-bank-Ghana.jpeg");
+	background-size: cover;
+	margin-bottom: -10px;
+}
+
+#body{margin-top: 20px;}
+
+.header {
+	margin: 20px 40%;
+	margin-top: 50px;
+	background-color: black;
+	display: grid;
+	justify-content: center;
+	border: 5px solid darkred;
+	border-radius: 10px;
+	color: darkred;
+}
+
+form {
+	border: solid black 0px;
+	padding: 30px 30px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 0 700px;
+	background-color: whitesmoke;
+}
+
+.input {
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+#time {
+	margin-bottom: 20px;
+}
+
+#principal {
+	margin-top: 0px;
+}
+
+.submit {
+	color: white;
+	background-color: black;
+	padding: 5px 10px;
+	margin-top: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.submit:hover {
+	color: black;
+	background-color: darkred;
+	transform: scale(1.05) !important;
+	transition: all 1s ease-in-out;
+}
+
+#myresults {
+	border: 5px solid darkred;
+	margin-top: 20px;
+	left: 100px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	background-color: darkred;
+}
+
+/*footer*/
+
+footer {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  border: 5px solid darkred;
+  border-left-color: black;
+  border-right-color: black;
+  font-family: 'Nerko One', cursive;
+  margin-top: 25vh;
+}
+
+#nav form *{transition:none !important;}
+
+/* Navigation
+--------------------------------------------------------------------------------------------------------------- */
+nav ul, nav ol{margin:0; padding:0; list-style:none;}
+
+#nav, #breadcrumb, .sidebar nav{line-height:normal;}
+#nav .drop::after, #nav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome 5 Free"; font-weight:900; font-size:10px; line-height:10px;}
+#nav{}
+#nav ul{text-transform:uppercase; }
+#nav ul ul{position:absolute; width:180px; text-transform:none; z-index:9999;}
+#nav ul ul ul{left:180px; top:0;}
+#nav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
+#nav li:last-child{margin-right:0;}
+#nav li li{width:100%; margin:0;}
+#nav li a{display:block; padding:30px 0;}
+#nav li li a{border:solid; border-width:0 0 1px 0;}
+#nav .drop{padding-left:15px;}
+#nav li li a, #nav li li .drop{display:block; margin:0; padding:10px 15px;}
+#nav .drop::after, #nav li li .drop::after{content:"\f0d7";}
+#nav .drop::after{top:35px; left:5px;}
+#nav li li .drop::after{top:15px; left:5px;}
+#nav ul ul{visibility:hidden; opacity:0;}
+#nav ul li:hover > ul{visibility:visible; opacity:1;}
+#nav form{display:none; width:100%; margin:0; padding:0;}
+#nav form select, #nav form select option{display:block; cursor:pointer; outline:none;}
+#nav form select{width:100%; padding:5px; border:1px solid;}
+#nav form select option{margin:5px; padding:0; border:none;}
+.contact a {padding: 0 5px;}
+.drop-to-side {margin-top: -100px;}
+
+
+#nav li a{color:inherit; text-align: left;}
+#nav .active a, #nav a:hover, #nav li:hover > a{color: darkred;; background-color:inherit;}
+#nav li li a, #nav .active li a{color:black; background-color:ghostwhite; border-color:black;/* #0AC6FC */ font-weight: bold;}
+#nav li li:hover > a, #nav .active .active > a{color: black; background-color:darkred;}
+#nav form select{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
+.contact {background: #026B8A;}
+.special{font-size: 16px; color: white;}
+
+@media only screen and (max-width: 600px) {
+	
+}
+
+/* Media Queries
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport{width:device-width;}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:1140px){
+	.hoc{max-width:1140px;}
+	form {margin: 0 30%;}
+	.header {margin: 20px 40%;}
+}
+
+@media screen and (min-width:978px) and (max-width:1140px){
+	.hoc{max-width:95%;}
+	form {margin: 0 30%;}
+	.header {margin: 20px 40%;}
+}
+
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:978px){
+	.hoc{max-width:90%;}
+
+	#header{padding:30px;}
+ 	#logo{margin-top:0;}
+
+	#nav{}
+	#nav ul{display:none;}
+	#nav form{display:block; margin-top:2px;}
+	.about-us {margin-top: 20px; margin: 20px 0px;}
+	form {margin: 0 20%;}
+	.header {margin: 20px 35%;}
+
+
+}
+
+@media screen and (max-width:750px){
+	.fl_left, .fl_right{display:block; float:none;}
+	#header{text-align:center;}
+	#header #logo{margin:0 0 15px 0;}
+	form {margin: 0 20%;}
+	.header {margin: 20px 30%;}
+}
+
+@media screen and (max-width:650px){
+	form {margin: 0 5%;}
+}
+
+@media screen and (max-width:590px){
+	.header {margin: 20px 10%;}
+
+}
