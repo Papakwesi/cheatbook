@@ -59,6 +59,15 @@ document.querySelector("#submit").addEventListener("click", function() {
     case "treasury bill calculator":
         window.open(url +"t-bill.html")
         break;
+    case "fixed deposit calculator":
+        window.open(url +"t-bill.html")
+        break;
+    case "fd calculator":
+        window.open(url +"t-bill.html")
+        break;
+    case "investment calculator":
+        window.open(url +"t-bill.html")
+        break;
     case "bm":
         window.open(url +"pages/contacts/BM.pdf")
         break;
@@ -95,16 +104,25 @@ document.querySelector("#submit").addEventListener("click", function() {
     case "e-xperience bundle":
         window.open(url +"pages/tarrif-guide/e-xperience.pdf")
         break;
+    case "e-xperience":
+        window.open(url +"pages/tarrif-guide/e-xperience.pdf")
+        break;
     case "international trade":
         window.open(url +"pages/tarrif-guide/ITP.pdf")
         break;
     case "payment order":
         window.open(url +"pages/tarrif-guide/PO.pdf")
         break;
+    case "po":
+        window.open(url +"pages/tarrif-guide/PO.pdf")
+        break;
     case "transaction fees":
         window.open(url +"pages/tarrif-guide/other-transaction.pdf")
         break;
     case "account requirement":
+        window.open(url +"pages/products/acc-opening-req.pdf")
+        break;
+    case "account opening requirement":
         window.open(url +"pages/products/acc-opening-req.pdf")
         break;
     case "current account":
